@@ -1,0 +1,6 @@
+framework module Pods_LearningReSwift {
+  umbrella header "Pods-LearningReSwift-umbrella.h"
+
+  export *
+  module * { export * }
+}

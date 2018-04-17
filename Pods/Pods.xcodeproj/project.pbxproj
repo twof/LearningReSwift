@@ -1,0 +1,952 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00A3A878A871E0BAB808A3DDE5B7568F /* Pods-LearningReSwiftTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 37359B3514B06F9FE3F5B8CCA61097C3 /* Pods-LearningReSwiftTests-dummy.m */; };
+		02FA53A25367810C6685042C6F72728D /* Coding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79671FE58DCBAC8FB9711561D02ED4DA /* Coding.swift */; };
+		0402D430FF1D76EBF21E3A40E27EC1DB /* Middleware.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC871B7066428FF774C5F9208197F11C /* Middleware.swift */; };
+		0F982F009C7798D8C988CCEBF72F1615 /* Pods-LearningReSwiftTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D1002C6835920F4664A33A5B68D9ACE /* Pods-LearningReSwiftTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1A39A34AA4095F4D5E08456F68506E31 /* Pods-LearningReSwiftUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A469E0EF0FA39F18EBB0628CDEC03DE5 /* Pods-LearningReSwiftUITests-dummy.m */; };
+		4226B8D87DD91099BDA099CBFF27D384 /* State.swift in Sources */ = {isa = PBXBuildFile; fileRef = 375E8868F8F6D6961F33EDED16FF1D5E /* State.swift */; };
+		5F74433D8044F7289163AD7F748BDC89 /* StoreType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E6C9E17987035DE48EA9493A0C11119 /* StoreType.swift */; };
+		6639430AF12D8C2B489FA7A3AB460BB4 /* DispatchingStoreType.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD6E955BFC89A34FDBF7FEE7631E7D19 /* DispatchingStoreType.swift */; };
+		6B24E58496636B2679BDC30FC4D42B21 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		7BC24F3474237DE8CFB21C96011854D7 /* Assertions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F3C38E9357DF11B55A4279C68A73D47 /* Assertions.swift */; };
+		8131309410F73BFD2FB65400B7E36FF7 /* Pods-LearningReSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 555596CD5119173AB456FEBDD9A7341F /* Pods-LearningReSwift-dummy.m */; };
+		94A0CCDC54A1ED9A921454B5F8C6A68E /* ReSwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C725CAA1819E4CE7F26BCE1C18EC0C29 /* ReSwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95031BF0AEEED3C47FA4500D8CFB01BF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		B0A15B243C79E4CEDCDB28AEE4F09B79 /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81CBAF76151CF858D574A099D1E7FC21 /* Store.swift */; };
+		B9112B3918161C30D2F9F6C95D2CC7DC /* Subscription.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9FF8A70D2AC7A1D137462E1C3E5CB1 /* Subscription.swift */; };
+		C938CBE1159AE4F1F4562F0BD65462AF /* TypeHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83EDC964B22DDA588870C260A7A333C6 /* TypeHelper.swift */; };
+		CF57FFE383EC56A113237E8FE17B4213 /* Pods-LearningReSwiftUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5817303D67AEA9D010CDD8487819A062 /* Pods-LearningReSwiftUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D2F37CCFC5BC7C20211A816C0CAE7BB2 /* Action.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2711A63FBF227A0CA669ED1D1EDB8F56 /* Action.swift */; };
+		DC470C7BC236BDA0D978CC0A88595DDE /* StoreSubscriber.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE64CEF372085B24E500493911C621F9 /* StoreSubscriber.swift */; };
+		E64EAB1B2A0DBE0623CEBC5E423D86B9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		EBA999626EC25526CBDC2D167A96C2A9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		ED4E605D33199E943546BD026520EDAE /* Pods-LearningReSwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 112F6EFD9AB5E36BF4962141207726AB /* Pods-LearningReSwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F3E26073AEC2B0E8474D53B73F58E46A /* ReSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ECB752D7054DBEA116738D7BA747A85 /* ReSwift-dummy.m */; };
+		FFD942109318E52107BA7A626E483175 /* Reducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71271725DE5CCC0BBEE81EB8E9D98E82 /* Reducer.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		387B36F1CF2B94F2CC3E05354E7DA562 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 820058A3A92DC8117329351D7B2990EA;
+			remoteInfo = "Pods-LearningReSwift";
+		};
+		9DF073AA4F75A5FC066231A8AD3D83BA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 86FF618E2D7D287612C68FBC54D7520B;
+			remoteInfo = ReSwift;
+		};
+		F08F92E42F0E3C5554F3CE634C16C7ED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 820058A3A92DC8117329351D7B2990EA;
+			remoteInfo = "Pods-LearningReSwift";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		09FE2B074E90527C8B0E3EFC94E25B3C /* Pods-LearningReSwiftTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LearningReSwiftTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0C0E64F0D4BC06CA1302F9707E404099 /* Pods_LearningReSwiftUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LearningReSwiftUITests.framework; path = "Pods-LearningReSwiftUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		112F6EFD9AB5E36BF4962141207726AB /* Pods-LearningReSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LearningReSwift-umbrella.h"; sourceTree = "<group>"; };
+		12DD7E6B79B976B44437CB8B38F5B159 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1D1002C6835920F4664A33A5B68D9ACE /* Pods-LearningReSwiftTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LearningReSwiftTests-umbrella.h"; sourceTree = "<group>"; };
+		1E3687626C8D9CCA47DB094F99CD0B6F /* Pods-LearningReSwiftTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LearningReSwiftTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		1F3C38E9357DF11B55A4279C68A73D47 /* Assertions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Assertions.swift; path = ReSwift/Utils/Assertions.swift; sourceTree = "<group>"; };
+		234B35819491E3739CC48BA41B111BB6 /* Pods-LearningReSwiftUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LearningReSwiftUITests-frameworks.sh"; sourceTree = "<group>"; };
+		2711A63FBF227A0CA669ED1D1EDB8F56 /* Action.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Action.swift; path = ReSwift/CoreTypes/Action.swift; sourceTree = "<group>"; };
+		305A42E0F7864F0B38070F931A4ED80F /* ReSwift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ReSwift.xcconfig; sourceTree = "<group>"; };
+		37359B3514B06F9FE3F5B8CCA61097C3 /* Pods-LearningReSwiftTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LearningReSwiftTests-dummy.m"; sourceTree = "<group>"; };
+		375E8868F8F6D6961F33EDED16FF1D5E /* State.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = State.swift; path = ReSwift/CoreTypes/State.swift; sourceTree = "<group>"; };
+		3BA45B42D522E81822F27F7B0B85676E /* Pods-LearningReSwift-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LearningReSwift-frameworks.sh"; sourceTree = "<group>"; };
+		4B1D75ACE378355B5C699E4787A28F87 /* Pods-LearningReSwiftTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LearningReSwiftTests-resources.sh"; sourceTree = "<group>"; };
+		555596CD5119173AB456FEBDD9A7341F /* Pods-LearningReSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LearningReSwift-dummy.m"; sourceTree = "<group>"; };
+		573A1898F0B64D947C24CBC8A72D7D50 /* Pods_LearningReSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LearningReSwift.framework; path = "Pods-LearningReSwift.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5817303D67AEA9D010CDD8487819A062 /* Pods-LearningReSwiftUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LearningReSwiftUITests-umbrella.h"; sourceTree = "<group>"; };
+		5EA329C6E373B0554FAF0349B60CB48E /* Pods-LearningReSwiftUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LearningReSwiftUITests.modulemap"; sourceTree = "<group>"; };
+		60DFDEDCB637F6B43590A51702CF9730 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6B558C611A04EB45B4C1729B0C232959 /* Pods-LearningReSwiftTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LearningReSwiftTests.debug.xcconfig"; sourceTree = "<group>"; };
+		71271725DE5CCC0BBEE81EB8E9D98E82 /* Reducer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Reducer.swift; path = ReSwift/CoreTypes/Reducer.swift; sourceTree = "<group>"; };
+		72EFA5F41EA8E327BDAE79E9321D2684 /* Pods_LearningReSwiftTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LearningReSwiftTests.framework; path = "Pods-LearningReSwiftTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		733523D94A48836319AC28221B30F883 /* Pods-LearningReSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LearningReSwift.release.xcconfig"; sourceTree = "<group>"; };
+		7660250353ACD4105011C7B272DE6AD2 /* Pods-LearningReSwift-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LearningReSwift-acknowledgements.plist"; sourceTree = "<group>"; };
+		79671FE58DCBAC8FB9711561D02ED4DA /* Coding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Coding.swift; path = ReSwift/Utils/Coding.swift; sourceTree = "<group>"; };
+		7A33AB317D69684D5C33053470E98696 /* Pods-LearningReSwiftTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LearningReSwiftTests-frameworks.sh"; sourceTree = "<group>"; };
+		7E4823FEAFE3ACF5C135081135513714 /* Pods-LearningReSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LearningReSwift.modulemap"; sourceTree = "<group>"; };
+		7E5808D2BAED06B2F2B5EDCFF04AEC63 /* Pods-LearningReSwiftUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LearningReSwiftUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		80C1917A255C1F1A33005328CBD05640 /* ReSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ReSwift.framework; path = ReSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		81CBAF76151CF858D574A099D1E7FC21 /* Store.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Store.swift; path = ReSwift/CoreTypes/Store.swift; sourceTree = "<group>"; };
+		83EDC964B22DDA588870C260A7A333C6 /* TypeHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TypeHelper.swift; path = ReSwift/Utils/TypeHelper.swift; sourceTree = "<group>"; };
+		8E6C9E17987035DE48EA9493A0C11119 /* StoreType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StoreType.swift; path = ReSwift/CoreTypes/StoreType.swift; sourceTree = "<group>"; };
+		92ECDA07C79B7CB89888A8F7ABC0B00A /* Pods-LearningReSwift-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LearningReSwift-acknowledgements.markdown"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9632B848A020E18CE30927D8BEB43D91 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9ECB752D7054DBEA116738D7BA747A85 /* ReSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ReSwift-dummy.m"; sourceTree = "<group>"; };
+		A469E0EF0FA39F18EBB0628CDEC03DE5 /* Pods-LearningReSwiftUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LearningReSwiftUITests-dummy.m"; sourceTree = "<group>"; };
+		A7CBF0499245206764B5F8212738565C /* Pods-LearningReSwiftTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LearningReSwiftTests.modulemap"; sourceTree = "<group>"; };
+		AA1C753C7EF631AA163ABDAC1D99D18F /* Pods-LearningReSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LearningReSwift.debug.xcconfig"; sourceTree = "<group>"; };
+		AD6E955BFC89A34FDBF7FEE7631E7D19 /* DispatchingStoreType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DispatchingStoreType.swift; path = ReSwift/CoreTypes/DispatchingStoreType.swift; sourceTree = "<group>"; };
+		AE64CEF372085B24E500493911C621F9 /* StoreSubscriber.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StoreSubscriber.swift; path = ReSwift/CoreTypes/StoreSubscriber.swift; sourceTree = "<group>"; };
+		B45377A290C16709C67E782D0B0661C6 /* Pods-LearningReSwift-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LearningReSwift-resources.sh"; sourceTree = "<group>"; };
+		C26153F93068057F3CFFEE3118F81CED /* Pods-LearningReSwiftTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LearningReSwiftTests.release.xcconfig"; sourceTree = "<group>"; };
+		C725CAA1819E4CE7F26BCE1C18EC0C29 /* ReSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ReSwift-umbrella.h"; sourceTree = "<group>"; };
+		C72E6F522422A72662BE1514BCF3D317 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE9FF8A70D2AC7A1D137462E1C3E5CB1 /* Subscription.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Subscription.swift; path = ReSwift/CoreTypes/Subscription.swift; sourceTree = "<group>"; };
+		D4ED67E1E2D08BDF502BCF4A6BB8D810 /* Pods-LearningReSwiftUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LearningReSwiftUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		DF00F887F15B2E15AF36620E45FA539E /* ReSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ReSwift.modulemap; sourceTree = "<group>"; };
+		E93123BED15238E36F6D8946DFFCA5DF /* Pods-LearningReSwiftUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LearningReSwiftUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F6318B72E61AD4DA9EC4A8AB09DCC796 /* Pods-LearningReSwiftUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LearningReSwiftUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		FC871B7066428FF774C5F9208197F11C /* Middleware.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Middleware.swift; path = ReSwift/CoreTypes/Middleware.swift; sourceTree = "<group>"; };
+		FE06E1C81518F26C25E3FEACC6270203 /* ReSwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ReSwift-prefix.pch"; sourceTree = "<group>"; };
+		FF3CFC2D3F8D27868876D97211654A5E /* Pods-LearningReSwiftUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LearningReSwiftUITests-resources.sh"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6141E9BDFEB83A4CA087B742F93E1D2A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E64EAB1B2A0DBE0623CEBC5E423D86B9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F5362C3F46159DD503D81D707FD54B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95031BF0AEEED3C47FA4500D8CFB01BF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6C6CFC9210FE41FF20494813274DEA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBA999626EC25526CBDC2D167A96C2A9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1F2D6D6100377D33FC034926A315C3B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B24E58496636B2679BDC30FC4D42B21 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1334C0328849627CED539AF332118725 /* ReSwift */ = {
+			isa = PBXGroup;
+			children = (
+				2711A63FBF227A0CA669ED1D1EDB8F56 /* Action.swift */,
+				1F3C38E9357DF11B55A4279C68A73D47 /* Assertions.swift */,
+				79671FE58DCBAC8FB9711561D02ED4DA /* Coding.swift */,
+				AD6E955BFC89A34FDBF7FEE7631E7D19 /* DispatchingStoreType.swift */,
+				FC871B7066428FF774C5F9208197F11C /* Middleware.swift */,
+				71271725DE5CCC0BBEE81EB8E9D98E82 /* Reducer.swift */,
+				375E8868F8F6D6961F33EDED16FF1D5E /* State.swift */,
+				81CBAF76151CF858D574A099D1E7FC21 /* Store.swift */,
+				AE64CEF372085B24E500493911C621F9 /* StoreSubscriber.swift */,
+				8E6C9E17987035DE48EA9493A0C11119 /* StoreType.swift */,
+				CE9FF8A70D2AC7A1D137462E1C3E5CB1 /* Subscription.swift */,
+				83EDC964B22DDA588870C260A7A333C6 /* TypeHelper.swift */,
+				D3D68B54E743ABB0B1D0C26EC23C8DA4 /* Support Files */,
+			);
+			name = ReSwift;
+			path = ReSwift;
+			sourceTree = "<group>";
+		};
+		577DA001A71482A4E01E988C1A869F32 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				83F364B4A7C10C2584CFB69B54884F53 /* Pods-LearningReSwift */,
+				F66DD97CD3EB16BF8C70A977276E1B2A /* Pods-LearningReSwiftTests */,
+				D618C9DCB6AFA5AA6AE37B2ADFA8F5B3 /* Pods-LearningReSwiftUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				A58919414556FF8285FCC0A42B1AC168 /* Pods */,
+				DC02F780A74DF3D2AEF99E3A6192ABCF /* Products */,
+				577DA001A71482A4E01E988C1A869F32 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		83F364B4A7C10C2584CFB69B54884F53 /* Pods-LearningReSwift */ = {
+			isa = PBXGroup;
+			children = (
+				60DFDEDCB637F6B43590A51702CF9730 /* Info.plist */,
+				7E4823FEAFE3ACF5C135081135513714 /* Pods-LearningReSwift.modulemap */,
+				92ECDA07C79B7CB89888A8F7ABC0B00A /* Pods-LearningReSwift-acknowledgements.markdown */,
+				7660250353ACD4105011C7B272DE6AD2 /* Pods-LearningReSwift-acknowledgements.plist */,
+				555596CD5119173AB456FEBDD9A7341F /* Pods-LearningReSwift-dummy.m */,
+				3BA45B42D522E81822F27F7B0B85676E /* Pods-LearningReSwift-frameworks.sh */,
+				B45377A290C16709C67E782D0B0661C6 /* Pods-LearningReSwift-resources.sh */,
+				112F6EFD9AB5E36BF4962141207726AB /* Pods-LearningReSwift-umbrella.h */,
+				AA1C753C7EF631AA163ABDAC1D99D18F /* Pods-LearningReSwift.debug.xcconfig */,
+				733523D94A48836319AC28221B30F883 /* Pods-LearningReSwift.release.xcconfig */,
+			);
+			name = "Pods-LearningReSwift";
+			path = "Target Support Files/Pods-LearningReSwift";
+			sourceTree = "<group>";
+		};
+		A58919414556FF8285FCC0A42B1AC168 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1334C0328849627CED539AF332118725 /* ReSwift */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		D3D68B54E743ABB0B1D0C26EC23C8DA4 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9632B848A020E18CE30927D8BEB43D91 /* Info.plist */,
+				DF00F887F15B2E15AF36620E45FA539E /* ReSwift.modulemap */,
+				305A42E0F7864F0B38070F931A4ED80F /* ReSwift.xcconfig */,
+				9ECB752D7054DBEA116738D7BA747A85 /* ReSwift-dummy.m */,
+				FE06E1C81518F26C25E3FEACC6270203 /* ReSwift-prefix.pch */,
+				C725CAA1819E4CE7F26BCE1C18EC0C29 /* ReSwift-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ReSwift";
+			sourceTree = "<group>";
+		};
+		D618C9DCB6AFA5AA6AE37B2ADFA8F5B3 /* Pods-LearningReSwiftUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C72E6F522422A72662BE1514BCF3D317 /* Info.plist */,
+				5EA329C6E373B0554FAF0349B60CB48E /* Pods-LearningReSwiftUITests.modulemap */,
+				7E5808D2BAED06B2F2B5EDCFF04AEC63 /* Pods-LearningReSwiftUITests-acknowledgements.markdown */,
+				D4ED67E1E2D08BDF502BCF4A6BB8D810 /* Pods-LearningReSwiftUITests-acknowledgements.plist */,
+				A469E0EF0FA39F18EBB0628CDEC03DE5 /* Pods-LearningReSwiftUITests-dummy.m */,
+				234B35819491E3739CC48BA41B111BB6 /* Pods-LearningReSwiftUITests-frameworks.sh */,
+				FF3CFC2D3F8D27868876D97211654A5E /* Pods-LearningReSwiftUITests-resources.sh */,
+				5817303D67AEA9D010CDD8487819A062 /* Pods-LearningReSwiftUITests-umbrella.h */,
+				F6318B72E61AD4DA9EC4A8AB09DCC796 /* Pods-LearningReSwiftUITests.debug.xcconfig */,
+				E93123BED15238E36F6D8946DFFCA5DF /* Pods-LearningReSwiftUITests.release.xcconfig */,
+			);
+			name = "Pods-LearningReSwiftUITests";
+			path = "Target Support Files/Pods-LearningReSwiftUITests";
+			sourceTree = "<group>";
+		};
+		DC02F780A74DF3D2AEF99E3A6192ABCF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				573A1898F0B64D947C24CBC8A72D7D50 /* Pods_LearningReSwift.framework */,
+				72EFA5F41EA8E327BDAE79E9321D2684 /* Pods_LearningReSwiftTests.framework */,
+				0C0E64F0D4BC06CA1302F9707E404099 /* Pods_LearningReSwiftUITests.framework */,
+				80C1917A255C1F1A33005328CBD05640 /* ReSwift.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F66DD97CD3EB16BF8C70A977276E1B2A /* Pods-LearningReSwiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				12DD7E6B79B976B44437CB8B38F5B159 /* Info.plist */,
+				A7CBF0499245206764B5F8212738565C /* Pods-LearningReSwiftTests.modulemap */,
+				09FE2B074E90527C8B0E3EFC94E25B3C /* Pods-LearningReSwiftTests-acknowledgements.markdown */,
+				1E3687626C8D9CCA47DB094F99CD0B6F /* Pods-LearningReSwiftTests-acknowledgements.plist */,
+				37359B3514B06F9FE3F5B8CCA61097C3 /* Pods-LearningReSwiftTests-dummy.m */,
+				7A33AB317D69684D5C33053470E98696 /* Pods-LearningReSwiftTests-frameworks.sh */,
+				4B1D75ACE378355B5C699E4787A28F87 /* Pods-LearningReSwiftTests-resources.sh */,
+				1D1002C6835920F4664A33A5B68D9ACE /* Pods-LearningReSwiftTests-umbrella.h */,
+				6B558C611A04EB45B4C1729B0C232959 /* Pods-LearningReSwiftTests.debug.xcconfig */,
+				C26153F93068057F3CFFEE3118F81CED /* Pods-LearningReSwiftTests.release.xcconfig */,
+			);
+			name = "Pods-LearningReSwiftTests";
+			path = "Target Support Files/Pods-LearningReSwiftTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0B77078554776AC382BC995CC939DB7B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF57FFE383EC56A113237E8FE17B4213 /* Pods-LearningReSwiftUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F834BBC8E570FD8B43DE89D6690865A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED4E605D33199E943546BD026520EDAE /* Pods-LearningReSwift-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C95E1ACDB192972D71612DAF9250281B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94A0CCDC54A1ED9A921454B5F8C6A68E /* ReSwift-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0B0CBC94E7A0937A023A5CCC6F70791 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F982F009C7798D8C988CCEBF72F1615 /* Pods-LearningReSwiftTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		820058A3A92DC8117329351D7B2990EA /* Pods-LearningReSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1C4E677C25F09F9153BC10A39862448F /* Build configuration list for PBXNativeTarget "Pods-LearningReSwift" */;
+			buildPhases = (
+				28ABDD38CA6638CE3512B4298C251A9F /* Sources */,
+				9F5362C3F46159DD503D81D707FD54B8 /* Frameworks */,
+				9F834BBC8E570FD8B43DE89D6690865A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C6E46D4A98B0E621B5BFCAB8592E8352 /* PBXTargetDependency */,
+			);
+			name = "Pods-LearningReSwift";
+			productName = "Pods-LearningReSwift";
+			productReference = 573A1898F0B64D947C24CBC8A72D7D50 /* Pods_LearningReSwift.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		86FF618E2D7D287612C68FBC54D7520B /* ReSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D6251395F144D0E22E669033D0E545C /* Build configuration list for PBXNativeTarget "ReSwift" */;
+			buildPhases = (
+				D790B7FFC8F0A281F3D104A8D5D445CB /* Sources */,
+				A6C6CFC9210FE41FF20494813274DEA4 /* Frameworks */,
+				C95E1ACDB192972D71612DAF9250281B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ReSwift;
+			productName = ReSwift;
+			productReference = 80C1917A255C1F1A33005328CBD05640 /* ReSwift.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		AE32D33909B702B60B00D16C487B08EB /* Pods-LearningReSwiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D34E4FF90CFB62CFE63F4A1C16D8407B /* Build configuration list for PBXNativeTarget "Pods-LearningReSwiftTests" */;
+			buildPhases = (
+				F674BF139D0020C18B5B98B69CFB4435 /* Sources */,
+				F1F2D6D6100377D33FC034926A315C3B /* Frameworks */,
+				F0B0CBC94E7A0937A023A5CCC6F70791 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1D9F3779637F20C739572DA73328A583 /* PBXTargetDependency */,
+			);
+			name = "Pods-LearningReSwiftTests";
+			productName = "Pods-LearningReSwiftTests";
+			productReference = 72EFA5F41EA8E327BDAE79E9321D2684 /* Pods_LearningReSwiftTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D3CA91B093A1D7865E6995115776FD3F /* Pods-LearningReSwiftUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E06DAC0D686602434EFE309487704CE7 /* Build configuration list for PBXNativeTarget "Pods-LearningReSwiftUITests" */;
+			buildPhases = (
+				4AF1529D137904E5A7E57DBD155E7421 /* Sources */,
+				6141E9BDFEB83A4CA087B742F93E1D2A /* Frameworks */,
+				0B77078554776AC382BC995CC939DB7B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C358740BB0E257D217D50482646967DA /* PBXTargetDependency */,
+			);
+			name = "Pods-LearningReSwiftUITests";
+			productName = "Pods-LearningReSwiftUITests";
+			productReference = 0C0E64F0D4BC06CA1302F9707E404099 /* Pods_LearningReSwiftUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = DC02F780A74DF3D2AEF99E3A6192ABCF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				820058A3A92DC8117329351D7B2990EA /* Pods-LearningReSwift */,
+				AE32D33909B702B60B00D16C487B08EB /* Pods-LearningReSwiftTests */,
+				D3CA91B093A1D7865E6995115776FD3F /* Pods-LearningReSwiftUITests */,
+				86FF618E2D7D287612C68FBC54D7520B /* ReSwift */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		28ABDD38CA6638CE3512B4298C251A9F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8131309410F73BFD2FB65400B7E36FF7 /* Pods-LearningReSwift-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4AF1529D137904E5A7E57DBD155E7421 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A39A34AA4095F4D5E08456F68506E31 /* Pods-LearningReSwiftUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D790B7FFC8F0A281F3D104A8D5D445CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2F37CCFC5BC7C20211A816C0CAE7BB2 /* Action.swift in Sources */,
+				7BC24F3474237DE8CFB21C96011854D7 /* Assertions.swift in Sources */,
+				02FA53A25367810C6685042C6F72728D /* Coding.swift in Sources */,
+				6639430AF12D8C2B489FA7A3AB460BB4 /* DispatchingStoreType.swift in Sources */,
+				0402D430FF1D76EBF21E3A40E27EC1DB /* Middleware.swift in Sources */,
+				FFD942109318E52107BA7A626E483175 /* Reducer.swift in Sources */,
+				F3E26073AEC2B0E8474D53B73F58E46A /* ReSwift-dummy.m in Sources */,
+				4226B8D87DD91099BDA099CBFF27D384 /* State.swift in Sources */,
+				B0A15B243C79E4CEDCDB28AEE4F09B79 /* Store.swift in Sources */,
+				DC470C7BC236BDA0D978CC0A88595DDE /* StoreSubscriber.swift in Sources */,
+				5F74433D8044F7289163AD7F748BDC89 /* StoreType.swift in Sources */,
+				B9112B3918161C30D2F9F6C95D2CC7DC /* Subscription.swift in Sources */,
+				C938CBE1159AE4F1F4562F0BD65462AF /* TypeHelper.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F674BF139D0020C18B5B98B69CFB4435 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00A3A878A871E0BAB808A3DDE5B7568F /* Pods-LearningReSwiftTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1D9F3779637F20C739572DA73328A583 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-LearningReSwift";
+			target = 820058A3A92DC8117329351D7B2990EA /* Pods-LearningReSwift */;
+			targetProxy = 387B36F1CF2B94F2CC3E05354E7DA562 /* PBXContainerItemProxy */;
+		};
+		C358740BB0E257D217D50482646967DA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-LearningReSwift";
+			target = 820058A3A92DC8117329351D7B2990EA /* Pods-LearningReSwift */;
+			targetProxy = F08F92E42F0E3C5554F3CE634C16C7ED /* PBXContainerItemProxy */;
+		};
+		C6E46D4A98B0E621B5BFCAB8592E8352 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ReSwift;
+			target = 86FF618E2D7D287612C68FBC54D7520B /* ReSwift */;
+			targetProxy = 9DF073AA4F75A5FC066231A8AD3D83BA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		05A9F482DF76A81D94B9695695DA4FFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C26153F93068057F3CFFEE3118F81CED /* Pods-LearningReSwiftTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LearningReSwiftTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LearningReSwiftTests/Pods-LearningReSwiftTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		35BBF9FE7303DFC5237D6B9633111B48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 733523D94A48836319AC28221B30F883 /* Pods-LearningReSwift.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LearningReSwift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LearningReSwift/Pods-LearningReSwift.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		691EE0234A3BA1A3B057D3A4C23C9CCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		703082A85162812D3B777E668767AD25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		70A63715B252777E73EC68008C7A84FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E93123BED15238E36F6D8946DFFCA5DF /* Pods-LearningReSwiftUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LearningReSwiftUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LearningReSwiftUITests/Pods-LearningReSwiftUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9F471417A1E78494F952C63898CC1EF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B558C611A04EB45B4C1729B0C232959 /* Pods-LearningReSwiftTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LearningReSwiftTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LearningReSwiftTests/Pods-LearningReSwiftTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B0C6238F967CE3050A032F118BFB4E55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 305A42E0F7864F0B38070F931A4ED80F /* ReSwift.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ReSwift/ReSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ReSwift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ReSwift/ReSwift.modulemap";
+				PRODUCT_MODULE_NAME = ReSwift;
+				PRODUCT_NAME = ReSwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B6E1DDD6EA91021418F5B3937292330E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 305A42E0F7864F0B38070F931A4ED80F /* ReSwift.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ReSwift/ReSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ReSwift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ReSwift/ReSwift.modulemap";
+				PRODUCT_MODULE_NAME = ReSwift;
+				PRODUCT_NAME = ReSwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CF01D3DBEF59BB0F27178BE600C3FF1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA1C753C7EF631AA163ABDAC1D99D18F /* Pods-LearningReSwift.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LearningReSwift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LearningReSwift/Pods-LearningReSwift.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F822FC0604C5BDB5F86B9896C60A3F6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6318B72E61AD4DA9EC4A8AB09DCC796 /* Pods-LearningReSwiftUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LearningReSwiftUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LearningReSwiftUITests/Pods-LearningReSwiftUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1C4E677C25F09F9153BC10A39862448F /* Build configuration list for PBXNativeTarget "Pods-LearningReSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF01D3DBEF59BB0F27178BE600C3FF1D /* Debug */,
+				35BBF9FE7303DFC5237D6B9633111B48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				691EE0234A3BA1A3B057D3A4C23C9CCC /* Debug */,
+				703082A85162812D3B777E668767AD25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D6251395F144D0E22E669033D0E545C /* Build configuration list for PBXNativeTarget "ReSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0C6238F967CE3050A032F118BFB4E55 /* Debug */,
+				B6E1DDD6EA91021418F5B3937292330E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D34E4FF90CFB62CFE63F4A1C16D8407B /* Build configuration list for PBXNativeTarget "Pods-LearningReSwiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F471417A1E78494F952C63898CC1EF6 /* Debug */,
+				05A9F482DF76A81D94B9695695DA4FFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E06DAC0D686602434EFE309487704CE7 /* Build configuration list for PBXNativeTarget "Pods-LearningReSwiftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F822FC0604C5BDB5F86B9896C60A3F6F /* Debug */,
+				70A63715B252777E73EC68008C7A84FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
